@@ -26,3 +26,20 @@ I wanted to understand how LLMs can answer questions based on custom data instea
 - Improve retrieval accuracy
 - Experiment with better prompting techniques
 - Try multi-agent workflows
+
+1. Install dependencies:
+```
+pip install langchain faiss-cpu openai
+```
+
+2. Add your API key:
+   ```
+   export OPENAI_API_KEY=your_api_key_here
+   ```
+   
+3. Run the script:
+   ```
+   python app.py
+   ```
+   
+   
